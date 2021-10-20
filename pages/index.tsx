@@ -157,7 +157,10 @@ class Home extends Component<ValueProps, ValueState> {
 										/>
 									) : null}
 									{pokemons && pokemons.length === 0 ? (
-										<div className="flex justify-center items-center">
+										<div
+											className="flex justify-center items-center"
+											id="pokemon-zero-state"
+										>
 											<img
 												src={"/static/zeroState.png"}
 												alt="zeroState"

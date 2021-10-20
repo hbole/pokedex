@@ -95,6 +95,8 @@ function Search({ searchPokemonByName, searchText }) {
 					placeholder={"Search Pokemons..."}
 					components={{ IndicatorSeparator: () => null, DropdownIndicator }}
 					className="w-96"
+					closeMenuOnSelect={false}
+					classNamePrefix="pokedex-search"
 					styles={styles}
 					openMenuOnClick={false}
 					openMenuOnFocus={false}
